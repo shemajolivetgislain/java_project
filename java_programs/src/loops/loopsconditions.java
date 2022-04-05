@@ -12,9 +12,10 @@ public class loopsconditions {
             System.out.print( "Enter 1st number:" );
 
             int inValue = scan.nextInt();
-            if(inValue < value || i==0 )
+            if(inValue > value || i==0 )
                 value = inValue;
-
+            else break;
         }
+
     }
 }

@@ -9,10 +9,14 @@ public class positiveNumber {
         for (int i= 0; i<=5; i++){
             System.out.println("please enter your numbers");
             int value = scan.nextInt();
-            if (value > num ){
-                num = value;
-                num += i;
+            if (value > num){
+//                num will holds the enter value
+                num= value;
                 System.out.println(num);
+            }
+            else {
+                System.err.println("this negative number");
+                break;
             }
         }
     }
